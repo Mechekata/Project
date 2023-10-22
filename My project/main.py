@@ -9,6 +9,8 @@ from time import time
 pygame.init()
 pygame.mixer.init()
 pygame.mixer.music.load('best_m.mp3')
+pygame.mixer.music.load('music_t.mp3')
+pygame.mixer.music.play(loops=-1, start=0.0, fade_ms=0)
 
 # window2 = QWidget()
 # window2.setLayout(main_line)
