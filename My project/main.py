@@ -37,6 +37,7 @@ yellow = (255, 228, 107)
 blue2 = (0, 1, 49)
 
 #створи вікно гри
+pygame.display.set_caption('platformer')
 window = pygame.display.set_mode((w_win, h_win))
 
 FPS = 55
